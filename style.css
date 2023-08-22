@@ -1,0 +1,339 @@
+/* ======================= 
+                Variables
+======================= */
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.absolute {
+  position: absolute;
+}
+.d-block, .visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+
+/* Global */
+.custom-container {
+  max-width: 1023px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: #333131;
+  font-size: 12px;
+}
+/* ======================= 
+                  Banner
+======================= */
+
+.home-banner-bg.webp-img {
+  /* background-image: url(/20-facts-might-know-guardians-galaxy.webp); */
+  background-image: url(/367457853_800551392071579_5698168754311236196_n.jpg);
+}
+
+.home-banner-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,0 92%);
+}
+
+.home-banner-bg .overlay {
+  position: absolute;
+  width: 100%;
+  height: 162px;
+  background: url(/banner-bg-top.png) repeat 50% 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+}
+
+.home-banner {
+    background-color: initial;
+    height: 60vh;
+    position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  z-index: 2;
+  padding: 10px;
+  width: calc(100vw - 39px);
+}
+
+.cart-account {
+  gap: 15px;
+}
+
+.icon-area {
+  height: 22px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* ======================= 
+    Header Center
+======================= */
+
+.glassomorphism {
+  background-color: rgba(255,255,255,0.1);
+
+  border: 2px solid rgba(255,255,255,255,0.7);
+  backdrop-filter: blur(25px);
+  box-shadow: -15px 17px 17px rgba(10, 10,10, 0.25);
+}
+
+.box {
+  position: relative;
+  margin-top: 10px;
+  height: 50px;
+  width: 500px;
+  padding: 0 20px;
+  border-radius: 100px;
+  z-index: 10;
+}
+
+
+.box-elements {
+  display: flex;
+}
+
+/* .box:hover #child-box {
+  display: block;
+} */
+
+#child-box {
+  position: relative;
+  top: 10px;
+  right: 17px;
+  height: 364px;
+  width: 500px;
+  z-index: 10;
+
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 20px;
+  border: 2px solid rgba(255,255,255,255,0.7);
+  backdrop-filter: blur(25px);
+  box-shadow: -15px 17px 17px rgba(10, 10,10, 0.25);
+}
+
+.box .nav {
+  height: 7%;
+  width: 95%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.box nav  ul {
+  padding-left: 0;
+  line-height: 1;
+}
+
+.box nav ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.box nav ul li a {
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.box nav ul li a:hover {
+  color: #fcd200;
+}
+
+.accordion-indicator {
+  background: url(/expand.svg) no-repeat 50%;
+  margin-top: 1.815rem;
+  right: 0;
+  top: 5px;
+  width: 19px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-links {
+  gap: 5px;
+}
+
+
+.ball {
+  position: absolute;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: linear-gradient(270deg,  #fc002e,#fcd200);
+}
+
+/* ======================= 
+    Top Links
+======================= */
+.top-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.top-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+input[type=text] {
+  position: absolute;
+  right: 0;
+  display:block;
+  margin: 0 0 0 auto;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 35px;
+  font-size: 16px;
+  background-color: orangered;
+  background-image: url('/search-icon.webp');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 540px;
+  border: 1px solid #000;
+  border-radius: 35px;
+  padding: 12px 20px 12px 40px;
+}
+
+
+
+/* ======================= 
+                     Card
+======================= */
+
+.card {
+  height: 300px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: #888;
+}
+
+section {
+  padding: 4rem 0 3rem;
+}
+
+.heading h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.my-card {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  position: relative;
+  width: 350px;
+  height: 209px;
+  border-radius: 0.5rem;
+}
+
+.my-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.discount-tag span {
+  font-size: 12px;
+}
+
+.my-card .box-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.discount-tag {
+  height: 20px;
+  width: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 13px;
+  font-family: Quantico, sans-serif;
+  position: absolute;
+  right: 0;
+  left: 2px;
+  top: auto;
+  bottom: 0;
+  padding: 2px 12px 2px 7px;
+  z-index: 2;
+  background-color: darkorange;
+  overflow: hidden;
+  transform: skew(16deg);
+  border-radius: 5px;
+}
+
+
+
+/* ======================= */
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
