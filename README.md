@@ -1,7 +1,7 @@
 # Tasks
 - You don’t need to use the exact cover and product images & fonts, but you need to keep the shapes similar
 - [-]  provided design into static HTML using SCSS and pure JavaScript
-    [] SCSS add
+    [x] SCSS add
 - [] seamless responsiveness across various devices and screen sizes.
 - [] Upon clicking the search icon, a search field will appear while simultaneously hiding the nav menu items. Please do it with raw JavaScript.
 
@@ -11,7 +11,7 @@
 - [x] Child Nav 
 - [x] Cards with discount 
 - Serach Icon Click
-- [] SCSS
+- [x] SCSS
 - [x]  Top links added
 - [x] Banner Image
 - [-] Search Box
