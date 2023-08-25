@@ -1,6 +1,6 @@
 export function setupCounter(element) {
   
-  let childBox = document.querySelector('#child-box');
+  let childBox = document.querySelector('#menu-bar');
   // let counter = 0
   // const setCounter = (count) => {
   //   counter = count
